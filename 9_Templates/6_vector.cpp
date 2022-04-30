@@ -10,7 +10,7 @@ void display(vector<T> &v){
     cout<<endl;
 }
 int main(){ 
-    vector<int> vec1;
+    vector<int> vec1; // zero length integer vector
     int element, size;
     cout<<"Enter the size of your vector"<<endl;
     cin>>size;
@@ -27,8 +27,8 @@ int main(){
     // vec1.insert(iter+2,566);
     // display(vec1);
 
-    // vector<int> vec1;      //zero length integer vector
-    vector<char> vec2;  //4-element character vector
+    // vector<int> vec2(4);  //4-element character vector   
+    vector<char> vec2;  
     char e;
     for (int i = 0; i < size; i++)
     {
@@ -38,7 +38,9 @@ int main(){
     }
     display(vec2);
     vector<char> vec3(vec2);//4-element character vector from vec2
+    display(vec3);
     vector<int> vec4(6,3); //6-element vector of 3s
+    display(vec4);
 
     return 0;
 }
