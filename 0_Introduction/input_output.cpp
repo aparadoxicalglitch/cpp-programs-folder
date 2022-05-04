@@ -12,5 +12,11 @@ int main()
 
     cout<<"The values of num1 and num2 are :"<<num1 <<" and " <<num2;
     int sum = num1 + num2;
-    cout<<"\nThe sum of num1 and num2 is : "<<sum;
+    cout<<"\nThe sum of num1 and num2 is : "<<sum<<endl;
+
+    // int a;
+    // cout<<"Enter the value of a : ";
+    // a = cin.get();
+    // cout<<"The value of a is : "<<a<<endl;
+    // cin.get() is used to take input of other characters like space, enter, tab etc. and will print the value in ascii 
 }
